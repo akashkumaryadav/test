@@ -1,0 +1,29 @@
+
+/*  carousel/slider */
+.slider{
+    width: 69.3875rem;
+    margin-left:10.125rem;
+    display: flex;
+}
+
+
+.carousel{
+    display: flex;
+    width: 65.6875rem;
+    justify-content: space-evenly;
+    padding-left: 6.84375rem;
+    padding-right: 6.84375rem;
+}
+.carousel-item{
+    width:90px;
+    height: 28px;
+}
+
+.slick-prev::before{
+    content:""
+}
+.slick-next::before
+{
+    content:"";
+    margin-left:6.85625rem;
+}

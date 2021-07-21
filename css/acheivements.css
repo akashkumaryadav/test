@@ -1,0 +1,39 @@
+
+.achievements{
+    width: 69.375rem;
+    margin-left: 10.3125rem;
+    margin-right: auto;
+    padding-top: 5rem;
+    padding-bottom: 5.125rem;
+    display: flex;
+}
+
+.achievements > div:first-child{
+    width:50%;
+}
+.achievements > div:first-child > h2{
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;    
+}
+.achievements > div:first-child > p{
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight: 400;    
+}
+
+
+.achievements > div:last-child{
+    width:50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.5rem;
+    column-gap: 2.5rem;
+}
+.achievements > div:last-child > span > svg{
+   margin-right: 1.5rem;
+}
+.achievements > div:last-child > span{
+   display: flex;
+   margin: 1.5rem;
+}
